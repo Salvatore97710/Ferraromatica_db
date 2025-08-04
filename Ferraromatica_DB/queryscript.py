@@ -3,7 +3,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Salvio977",
+    password="*****",
     database="Ferraromatica"
 )
 cursor = db.cursor()
@@ -35,4 +35,5 @@ result=cursor.fetchall()
 
 for x in result:  
     print(x)
+
     
